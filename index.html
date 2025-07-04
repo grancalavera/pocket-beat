@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pocket Beat</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pocket Beat</h1>
+    <div class="file-import">
+      <input type="file" id="fileInput" accept="audio/*" multiple>
+    </div>
+    <ul id="trackList" class="track-list"></ul>
+  </div>
+  <audio id="audioPlayer" controls></audio>
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* Basic styling for Pocket Beat */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+h1 {
+  text-align: center;
+}
+.file-import {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#trackList {
+  list-style: none;
+  padding: 0;
+}
+.track-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+.track-item span {
+  flex: 1;
+  margin-right: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.track-item button {
+  margin-left: 0.5rem;
+}
+#audioPlayer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
